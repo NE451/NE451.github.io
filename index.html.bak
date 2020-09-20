@@ -6,26 +6,23 @@
   </head>
   <body>
     <div style="text-align: center;"> <b> Ne's Retro Lair </b> <br>
-      <i>
-        <small></small></i>
+      <i> <small></small></i>
       <div style="text-align: center;"><i><small>Now in HTML, 'cause they look
             so good.<br>
-          </small>
-        </i>
-        <small><small>(Page was created on 19/09/2020, 8:30PM c.a)</small></small><br>
+          </small> </i> <small><small>(Page was created on 19/09/2020, 8:30PM
+            c.a)</small></small><br>
         <br>
         <div style="text-align: center;">Greetings, <i> dear Reader!</i>
           <div style="text-align: center;">Say welcome to that vintage smell
             emanating from your speakers, get yourself confortable with a cup of
-            coffee and enjoy your stay...
-            <br>
+            coffee and enjoy your stay... <br>
             <br>
           </div>
           <div style="text-align: left"> R e v i e w s:</div>
           <div style="text-align:left">
             <ul>
-              <li><a href="Eternal%20Darkness.html">Eternal Darkness -
-                  Sanity's Requiem</a><br>
+              <li><a href="Eternal%20Darkness.html">Eternal Darkness - Sanity's
+                  Requiem</a><br>
               </li>
               <br>
               <li><a href="Blood.html">Blood: Fresh Supply</a><br>
@@ -35,15 +32,13 @@
             <style>
 body {
   background-image: url('simple-backgrounds-12.jpg');
-  background-repeat: repeat;
-  background-size:100% 100%;
-  margin: 0px;
-  padding: 0px;
+  background-repeat: no-repeat;
+  background-size:auto;
 }
 
-</style></div>
-        </div>
+</style></div> </div>
       </div>
     </div>
+    
   </body>
 </html>
