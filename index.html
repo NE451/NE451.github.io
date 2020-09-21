@@ -39,13 +39,19 @@ body {
   //background-image: url('simple-backgrounds-12.jpg');
 }
 
-h1 {
-    text-align: center; 
-}
-h1 span { 
-    background-color: green; 
+.dark-mode {
+  background-color: black;
+  color: white
 }
               
+<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+
 </style></div> </div>
     </div>
     
