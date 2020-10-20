@@ -4,26 +4,30 @@ body {
 
 h1 {
   color:black;
+  font-family: verdana;
+  font-size: 20px;
   text-align: center;
 }
 
 p {
   font-family: verdana;
   font-size: 20px;
+  text-align: center;
 }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 50%;
 }
 
 div.image {
-  width: 80%;
-  background-color: white;
+  display: block;
+  background-color: #99ccff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 10px;
+  text-align: center;
 }
 
 div.container {
