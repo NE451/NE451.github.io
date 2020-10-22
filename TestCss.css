@@ -1,0 +1,37 @@
+body {
+  background-color:#9966ff;
+  font-family:		verdana, arial, sans-serif;
+  padding: 100px
+}
+
+
+.example1 {
+    background-color:white;
+    background-position: center;
+    background-repeat: repeat;
+    padding: 75px;
+    background-size: 50%; 
+  }
+
+ h1 {
+    color:black;
+    font-family: verdana;
+    font-size: 45px;
+    text-align: center;
+  }
+  
+
+  div.image {
+    width: 80%;
+    background-color: #66ccff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }

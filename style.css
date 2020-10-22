@@ -1,5 +1,7 @@
 body {
-  background-color:#9966ff;
+  background-color:#5a32a8; /**Teal:#194a50 /  Viola: #5a32a8 / Lilla: #9966ff **/
+  font-family:		verdana, arial, sans-serif;
+  padding: 75px
 }
 
 h1 {
@@ -9,60 +11,32 @@ h1 {
   text-align: center;
 }
 
-p {
-  font-family: verdana;
-  font-size: 20px;
-  text-align: center;
-}
-
-.p1 {
-  text-align: center;
-  margin: auto;
-  width: 85%;
-  padding: 5px;  
-  font-family: verdana;
-  font-size: 20px;
-  background-color: white;
-  
-}
-
-.p2 {
-  text-align: center;
-  margin: auto;
-  width: 50%;
-  padding: 5px;  
-  font-family: verdana;
-  font-size: 18px;
-  
-}
-
-
-.pbig {
+h2 {
+  color:black;
   font-family: verdana;
   font-size: 25px;
   text-align: center;
 }
 
-.pmedium {
+
+p {
+  color:black;
   font-family: verdana;
   font-size: 20px;
   text-align: center;
 }
 
-
-.pleft {
-  text-align: left;
-  font-family: verdana;
-  font-size: 50px;
-  text-align: center;
-  }
-
-
-ul {
-text-align: left;
+.blankspace {
+  background-color: white;
+  background-position: center;
+  background-repeat: repeat;
+  padding: 50px;
+  background-size: 100%; 
 }
 
-
+.textleft {
+text-align: left;
+}
 
 img {
   display: block;
@@ -73,33 +47,70 @@ img {
 
 div.image {
   width: 80%;
-  background-color: #66ccff;
+  background-color: #194a50; /**Teal: #194a50 /  LightSky: #66ccff **/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 div.container {
   text-align: center;
-  padding: 10px 20px;
+  color: white;
+  padding: 15px 20px;
 }
 
 .wrapper {
   text-align: center;
 }
 
+
+
 a.button {
-  background-color: lightsteelblue; 
+  background-color: #3b41e3; /*Testing this color #3b41e3 ex RoyalBlue */
   border: none;
   width: 25%;
-  color: black;
+  color: whitesmoke;
   padding: 15px 32px;;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
   
 }
+
+a.button:hover {
+  background-color: #3338c4; /*Ex Color Was  #243DA8 - RoyalBlue */
+} 
+
+a.button1 {
+  background-color: #3b41e3; /*Testing this color #3b41e3 ex RoyalBlue */
+  border: none;
+  width: 50%;
+  color: whitesmoke;
+  padding: 15px 32px;;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+  
+}
+
+a.button1:hover {
+  background-color: #3338c4; /*Ex Color Was  #243DA8 - RoyalBlue */
+} 
+
+.checked {
+  color: purple;
+  position: center; 
+}
+
+.score {
+  color: black; 
+  position: left ; 
+}
+
+
