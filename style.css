@@ -81,6 +81,8 @@ div.container {
   text-align: center;
 }
 
+/* List. */
+
 ul.a {
   color:black;
   font-family: verdana;
@@ -88,6 +90,8 @@ ul.a {
   text-align: justify;
   list-style-type: circle;
 }
+
+/* Go Back Button + Hover. */
 
 a.button {
   background-color: #3b41e3; /*Testing this color #3b41e3 ex RoyalBlue */
@@ -107,6 +111,8 @@ a.button:hover {
   background-color: #3338c4; /*Ex Color Was  #243DA8 - RoyalBlue */
 } 
 
+/* Main Button - Index + Hover style. */
+
 a.button1 {
   background-color: #3b41e3; /*Testing this color #3b41e3 ex RoyalBlue */
   border: none;
@@ -125,14 +131,67 @@ a.button1:hover {
   background-color: #3338c4; /*Ex Color Was  #243DA8 - RoyalBlue */
 } 
 
+/* Review Full Star */
+
 .checked {
   color: #f56342;
   position: center; 
 }
 
-.score {
-  color: black; 
-  position: left ; 
+/* Review HalfStars */
+
+.fa-star-half-alt {
+  color: #f56342;
+  position: center; 
 }
 
+/* Review EmptyStar */
 
+.fa-star {
+  color: #f56342;
+  position: center; 
+}
+
+/* Review Score Text. */
+
+.score {
+  font-size: 30px;
+  color: black;
+}
+
+/* Gradient Title - Main - Index */
+
+.maintitle {
+  font-size: 72px;
+  background-image: linear-gradient(#7f10ad, #f75a08); /*#7f10ad - #bf3ef4 */
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+/* Gradient Title - Review - Index */
+
+.title2 {
+  font-size: 60px;
+  background-image: linear-gradient(#7f10ad, #1a99f2); /*#7f10ad - #bf3ef4 */
+  background-size: 100%;
+  background-repeat: repeat;
+  display: block;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+/* Line Division */
+
+.linediv {
+  height: 10px;
+  background-color: #4B7BA3;
+  background-size: 100%;
+  background-repeat: repeat;
+  display: block;
+}
