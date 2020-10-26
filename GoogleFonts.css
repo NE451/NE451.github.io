@@ -1,0 +1,103 @@
+@import url('http://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&family=Source+Sans+Pro&family=Permanent+Marker&family=Roboto+Mono&family=Staatliches&display=swap');
+
+.staatliches {
+    font-family: 'Staatliches', serif;
+    color: black;
+    font-size: 30px;
+    font-display: center;
+  }
+
+  .Bungee {
+    font-family: 'Bungee', serif;
+    color: black;
+    font-size: 30px;
+    font-display: center;
+  }
+
+  .Bungeesmall {
+    font-family: 'Bungee', serif;
+    color: whitesmoke;
+    font-size: 20px;
+    font-display: center;
+  }
+
+  .BungeeWhite {
+    font-family: 'Bungee', serif;
+    font-size: 45px;
+    font-display: justify;
+    color:white;
+  }
+
+  .BungeeShade {
+    font-family: 'Bungee Shade', serif;
+    color: white;
+    font-size: 60px;
+    font-display: center;
+  }
+
+  .permanentmarker {
+    font-family: 'Permanent Marker', serif;
+    color: white;
+    font-size: 70px;
+    font-display: center;
+  }
+
+/* HTML description in Index Page. */
+
+  .robotomono {
+    font-family: 'Roboto Mono', serif;
+    color: black;
+    font-size: 25px;
+    font-display: justify;
+  }
+
+  /* Greetings in Index Page. */
+
+  .sourcesanspro {
+    font-family: 'Source Sans Pro', serif;
+    color: black;
+    font-size: 25px;
+    font-display: justify;
+  }
+
+
+/* Gradient Title - Main - Index */
+
+  .permanentmarkergrd1 {
+    font-size: 72px;
+    background-image: linear-gradient(#7f10ad, #f75a08); /*#7f10ad - #bf3ef4 */
+    background-size: 100%;
+    background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  font-family: 'Permanent Marker';
+  }
+
+/* Gradient Title - Review - Index */
+
+  .permanentmarkergrd2 {
+    font-size: 60px;
+    background-image: linear-gradient(#7f10ad, #1a99f2); /*#7f10ad - #bf3ef4 */
+    background-size: 100%;
+    background-repeat: repeat;
+    display: block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-family: 'Permanent Marker';
+  }
+
+  .permanentmarkergrd3 {
+    font-size: 72px;
+    background-image: linear-gradient(#209b68, #1d94d8); /*#7f10ad - #bf3ef4 */
+    background-size: 100%;
+    background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  font-family: 'Permanent Marker';
+  }
