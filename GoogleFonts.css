@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto Italic';
   src: url('fonts/RobotoMono-Italic-VariableFont_wght.ttf') format('truetype');
   font-style: italic;
   font-weight: 300;
@@ -42,21 +42,21 @@
 } 
 
 @font-face {
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro Bold';
   src: url('fonts/SourceSansPro-Bold.ttf') format('truetype');
   font-style: bold;
   font-weight: 300;
 } 
 
 @font-face {
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro Italic';
   src: url('fonts/SourceSansPro-Italic.ttf') format('truetype');
   font-style: italic;
   font-weight: 300;
 } 
 
 @font-face {
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro Light';
   src: url('fonts/SourceSansPro-Light.ttf') format('truetype');
   font-style: lighter;
   font-weight: 300;
@@ -114,9 +114,9 @@
 /* HTML description in Index Page. */
 
   .robotomono {
-    font-family: 'Roboto Mono', serif;
+    font-family: 'Roboto', serif;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     font-display: justify;
   }
 
@@ -126,6 +126,33 @@
     font-family: 'Source Sans Pro', serif;
     color: black;
     font-size: 25px;
+    font-display: justify;
+  }
+
+/* Testing a bolder look for SSPro. */
+
+   .sourcesansprobold {
+    font-family: 'Source Sans Pro Bold', serif;
+    color: black;
+    font-size: 25px;
+    font-display: justify;
+  }
+
+/* Testing White Text for Containers. */
+
+  .sourcesansprocontainer {
+    font-family: 'Source Sans Pro Light', serif;
+    color:white;
+    font-size: 20px;
+    font-display: justify;
+  }
+
+/* Testing White Text for Containers. - Italic. */
+
+  .sourcesansprocontainerit {
+    font-family: 'Source Sans Pro Italic', serif;
+    color:white;
+    font-size: 20px;
     font-display: justify;
   }
 
