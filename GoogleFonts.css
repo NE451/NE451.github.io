@@ -1,3 +1,5 @@
+/* Adding local fonts since Firefox and Chrome/Android likes to break a lot when I'm importing them from google servers. */
+
 @font-face {
   font-family: 'Roboto';
   src: url('fonts/RobotoMono-VariableFont_wght.ttf') format('truetype');
