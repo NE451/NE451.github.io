@@ -138,7 +138,7 @@ a.button1 {
   display: inline-block;
   font-size: 20px;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  font-family: "lucida console";
+  font-family: "verdana";
 }
 
 a.button1:hover {
@@ -224,6 +224,16 @@ a.button1:hover {
 }
 
 .fa-twitter-square {
-  color:whitesmoke
+  color:whitesmoke;
+  padding: 25px
 }
 
+.fa-steam-square {
+  color:whitesmoke;
+  padding: 25px
+}
+
+.fa-github-square {
+  color:whitesmoke;
+  padding: 25px
+}

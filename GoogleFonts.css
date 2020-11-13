@@ -69,6 +69,12 @@
   font-weight: 300;
 }
 
+@font-face {
+  font-family: 'OCR Regular';
+  src: url('fonts/OCR-A Regular.ttf') format('truetype');
+  font-style: normal;
+}
+
 .staatliches {
     font-family: 'Staatliches', serif;
     color: black;
@@ -197,3 +203,11 @@
   -moz-text-fill-color: transparent;
   font-family: 'Permanent Marker';
   }
+
+.OCR-R {
+    font-family: 'OCR Regular', serif;
+    color: whitesmoke;
+    font-size: 30px;
+    font-display: center;
+  }
+
